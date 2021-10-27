@@ -454,7 +454,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "GeezProject"
+        user.first_name = "ᴋɪᴘʟɪ"
     usar = user
     wew = usar.id
     try:
@@ -612,7 +612,7 @@ async def play(_, message: Message):
             while j < 5:
                 toxxt += f"{emojilist[j]} [{results[j]['title'][:25]}](https://youtube.com{results[j]['url_suffix']})\n"
                 toxxt += f" ├ 💡 **Duration** - {results[j]['duration']}\n"
-                toxxt += f" └ ⚡ __Powered by Geez Music Project__\n\n"
+                toxxt += f" └ ⚡ __Powered by ᴋɪᴘʟɪ__\n\n"
 
                 j += 1            
             koyboard = InlineKeyboardMarkup(
@@ -939,7 +939,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/GeezProjects")],
+            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/vibeskipli")],
         ]
     )
     file_path = await convert(wget.download(url))
